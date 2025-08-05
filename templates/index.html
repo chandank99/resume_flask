@@ -2,55 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chandan Kumar Singh - Telecom & DevOps Engineer</title>
+    <title>Chandan Kumar Singh - Resume</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
 <header>
+    <img src="{{ url_for('static', filename='images/dp.jpg') }}" alt="Profile" class="profile-img">
     <h1>Chandan Kumar Singh</h1>
-    <p>Telecom Performance & DevOps Engineer</p>
-    <a class="resume-btn" href="{{ url_for('static', filename='resume/Chandan_Resume.pdf') }}" download>Download Resume</a>
+    <p>Telecom & DevOps Engineer</p>
+    <a class="resume-btn" href="{{ url_for('static', filename='../resume/Chandan_Resume.pdf') }}" download>Download Resume</a>
 </header>
 
-<section class="about">
-    <h2>About Me</h2>
-    <p>I am a Telecom RAN Optimization expert with 8+ years of experience in network performance engineering. Recently, I have transitioned into the DevOps domain where I bring automation and scalability to telecom systems using tools like AWS, Docker, GitHub Actions, Jenkins, and more.</p>
-</section>
+<div class="container">
+    <section>
+        <h2>Contact</h2>
+        <p><strong>Phone:</strong> +91-8984350440</p>
+        <p><strong>Email:</strong> chandanksingh295@gmail.com</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chandansingh295" target="_blank">linkedin.com/in/chandansingh295</a></p>
+        <p><strong>Location:</strong> Jamuarahi, Supaul, Bihar, India</p>
+    </section>
 
-<section class="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>Radio Network Optimization (4G, 5G, VoLTE)</li>
-        <li>Python, Shell Scripting</li>
-        <li>AWS (EC2, S3, RDS, IAM, Route53)</li>
-        <li>CI/CD – Git, GitHub Actions, Jenkins</li>
-        <li>Docker, Kubernetes (basics)</li>
-        <li>Linux Administration</li>
-    </ul>
-</section>
+    <section>
+        <h2>Summary</h2>
+        <p>Skilled and results-driven Network Performance and Optimization (NPO) Engineer with 7.4 years of experience. Specializing in Telecom KPIs (CSSR, DCR, Handover), with Linux scripting (Python/Bash) and DevOps tools to automate and optimize network operations.</p>
+    </section>
 
-<section class="projects">
-    <h2>Projects</h2>
-    <ul>
-        <li>
-            <strong>Automated KPI Dashboard</strong>: Built a Python + Flask app to visualize real-time telecom KPI data using maps and thresholds.
-        </li>
-        <li>
-            <strong>DevOps Resume Website</strong>: This personal resume website deployed using Flask, GitHub and GitHub Pages.
-        </li>
-    </ul>
-</section>
+    <section>
+        <h2>Skills & Competencies</h2>
+        <ul>
+            <li><strong>Languages:</strong> Shell/Bash, Python</li>
+            <li><strong>Tools:</strong> MySQL, Apache, Apache Tomcat, Tableau</li>
+            <li><strong>Monitoring:</strong> Netcool, BMC Remedy, Mycom, ENM, NetAct, U2020</li>
+            <li><strong>Virtualization:</strong> VMware, Virtual Box, Citrix</li>
+            <li><strong>OS:</strong> Linux (RHEL, CentOS), Windows</li>
+            <li><strong>Networking:</strong> TCP/IP, OSI, HTTP, SMTP, QoS</li>
+        </ul>
+    </section>
 
-<section class="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:chandan@example.com">chandan@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
-</section>
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Sr. NPO Engineer – Vodafone India (2022–Present)</strong><br>Lead KPI analysis and automation using Python/Bash. RCA and Linux CLI troubleshooting. Developed backup and alert scripts.</li>
+            <li><strong>RAN Engineer – Ericsson (2021–2022)</strong><br>Fault mgmt and log analysis using Linux tools. Automated network metric collection. Site restoration.</li>
+            <li><strong>RAN Engineer – Jersey Airtel (2020–2021)</strong><br>Real-time RAN monitoring, scripting for outage reports, hardware fault tracking.</li>
+            <li><strong>NOC Engineer – Bharti Infratel (2019–2020)</strong><br>24x7 fault analysis, OSS fault resolution, Linux-based dashboard reports.</li>
+            <li><strong>NOC Engineer – Reliance Jio (2017–2019)</strong><br>CLI logins to routers, automated reporting using Python, outage alerting.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p><strong>B.Tech in ECE</strong> – Nalanda Institute of Technology, Bhubaneswar (2017) – 7.3 CGPA</p>
+        <p><strong>12th</strong> – Mahatma Gandhi College, Darbhanga (2013) – 61%</p>
+    </section>
+</div>
 
 <footer>
-    &copy; 2025 Chandan Kumar Singh. All rights reserved.
+    &copy; 2025 Chandan Singh. Built with ♡.
 </footer>
 
 </body>
