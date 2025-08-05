@@ -2,11 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chandan's Resume</title>
+    <title>Chandan Kumar Singh - Telecom & DevOps Engineer</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is Chandan Kumar Singh's resume site built with Flask.</p>
+
+<header>
+    <h1>Chandan Kumar Singh</h1>
+    <p>Telecom Performance & DevOps Engineer</p>
+    <a class="resume-btn" href="{{ url_for('static', filename='resume/Chandan_Resume.pdf') }}" download>Download Resume</a>
+</header>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>I am a Telecom RAN Optimization expert with 8+ years of experience in network performance engineering. Recently, I have transitioned into the DevOps domain where I bring automation and scalability to telecom systems using tools like AWS, Docker, GitHub Actions, Jenkins, and more.</p>
+</section>
+
+<section class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Radio Network Optimization (4G, 5G, VoLTE)</li>
+        <li>Python, Shell Scripting</li>
+        <li>AWS (EC2, S3, RDS, IAM, Route53)</li>
+        <li>CI/CD – Git, GitHub Actions, Jenkins</li>
+        <li>Docker, Kubernetes (basics)</li>
+        <li>Linux Administration</li>
+    </ul>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>
+            <strong>Automated KPI Dashboard</strong>: Built a Python + Flask app to visualize real-time telecom KPI data using maps and thresholds.
+        </li>
+        <li>
+            <strong>DevOps Resume Website</strong>: This personal resume website deployed using Flask, GitHub and GitHub Pages.
+        </li>
+    </ul>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:chandan@example.com">chandan@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
+</section>
+
+<footer>
+    &copy; 2025 Chandan Kumar Singh. All rights reserved.
+</footer>
+
 </body>
 </html>
